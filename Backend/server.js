@@ -655,7 +655,7 @@ async function startServer() {
          );
          app.locals.reverseImageSearchAvailable = true;
       } else {
-      } else {
+     
          const reverseImageStatus =
             await initializeReverseImageSearchDependency({
                initialize: startReverseImageSearch,
