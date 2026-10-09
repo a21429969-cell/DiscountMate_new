@@ -665,7 +665,7 @@ async function startServer() {
             reverseImageStatus.available;
       }
       }
-   } catch (err) {
+   catch (err) {
       console.error(
          'Failed to start required ReverseImageSearch sidecar:',
          err.message
